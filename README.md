@@ -1,1 +1,2 @@
 # CFB-mode-of-Data-Encryption-Standard
+CFB-64 is a block cipher mode of operation that turns a block cipher into a self-synchronizing stream cipher. In CFB-64, the previous ciphertext block is encrypted and then XORed with the plaintext to produce the next ciphertext block. This process allows the encryption of individual bits or bytes at a time, providing a continuous stream of pseudo-random ciphertext. CFB-64 does not require padding and allows for the encryption of variable-length plaintext.
